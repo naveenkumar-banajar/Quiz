@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML5 Quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="quz.css" type="text/css">
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	<link rel=stylesheet href="colors.min.css">
+</head>
+<body>
+	<div id="content"> 
+		<header>
+		
+				<nav id="mn" class="navbar navbar-light">
+	 			 	<span class="navbar-brand mb-0 h1" id="sp1">HTML5</span>
+	 			 	<span class="navbar-brand mb-0 h1" id="sp2">EllipSonic</span>
+				</nav>
+		</header>
+
+		<main>
+			<form class="questionForm" id="q1" data-question="1">
+				<div class="form-check">
+					<h3>1. What is the correct HTML5 element for playing audio files?</h3>
+					<ul>
+						<li><input class="form-check-input" type="radio" name="q1" value="a" />&lt;mp3&gt;</li>
+						<li><input class="form-check-input" type="radio" name="q1" value="b" />&lt;audio&gt;</li>
+						<li><input class="form-check-input" type="radio" name="q1" value="c" />&lt;music&gt;</li>
+						<li><input class="form-check-input" type="radio" name="q1" value="d" />&lt;sound&gt;</li>
+					</ul>
+					<button class="btn btn-dark" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			
+			<form class="questionForm" id="q2" data-question="2">
+				<div class="form-check">
+					<h3>2. In HTML5, which method is used to get the current location of a user?</h3>
+					<ul>
+						<li><input class="form-check-input" type="radio" name="q2" value="a" />getPosition()</li>
+						<li><input class="form-check-input" type="radio" name="q2" value="b" />getUserPosition()</li>
+						<li><input class="form-check-input" type="radio" name="q2" value="c" />getUserInfo()</li>
+						<li><input class="form-check-input" type="radio" name="q2" value="d" />getCurrentPosition()</li>
+					</ul>
+					<button class="btn btn-dark" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			
+			<form class="questionForm" id="q3" data-question="3">
+				<div class="form-check">
+					<h3>3. Which tag is used to define a block of text that have quotation marks?</h3>
+					<ul>
+						<li><input class="form-check-input" name="q3" type="radio" value="a" />&lt;quote&gt;</li>
+						<li><input class="form-check-input" name="q3" type="radio" value="b" />&lt;mark&gt;</li>
+						<li><input class="form-check-input" name="q3" type="radio" value="c" />&lt;blockquote&gt;</li>
+						<li><input class="form-check-input" name="q3" type="radio" value="d" />&lt;none&gt;</li>
+					</ul>
+					<button class="btn btn-dark" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			
+			<form class="questionForm" id="q4" data-question="4">
+				<div class="form-check">
+					<h3>4. Which of the following element is a new HTML5 element?</h3>
+					<ul>
+						<li><input class="form-check-input" name="q4" type="radio" value="a" />&lt;nav&gt;</li>
+						<li><input class="form-check-input" name="q4" type="radio" value="b" />&lt;fieldset&gt;</li>
+						<li><input class="form-check-input" name="q4" type="radio" value="c" />&lt;pre&gt;</li>
+						<li><input class="form-check-input" name="q4" type="radio" value="d" />&lt;title&gt;</li>
+					</ul>
+					<button class="btn btn-dark" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			
+			<form class="questionForm" id="q5" data-question="5">
+				<div class="form-check">
+					<h3>5. How is Server request data stored in HTML5?</h3>
+					<ul>
+						<li><input class="form-check-input" name="q5" type="radio" value="a" />Cookies</li>
+						<li><input class="form-check-input" name="q5" type="radio" value="b" />Web Storage</li>
+						<li><input class="form-check-input" name="q5" type="radio" value="c" />Local Storage</li>
+						<li><input class="form-check-input" name="q5" type="radio" value="d" />Server Session</li>
+					</ul>
+					<button class="btn btn-dark" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			
+			<div class="container" id="results"></div>
+
+			<br>
+		</main>
+
+		<footer class=" page-footer unique-color-dark pt-2">
+			<div class="container pull-left">Total: 5 Questions</div>
+		</footer>
+	</div><!-- container -->
+
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+	
+	<script src="quz.js"></script>
+</body>
+</html>
